@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="Calculator.css">
+</head>
+<body>
+	<div class="header">
+		<h1>Calculator</h1>
+	</div>
+		<div class="container">
+			<div class="calculadora">
+				<div class="display">
+					<div id="valorAnterior"></div>
+					<div id="valorActual"></div>
+				</div>
+				<button onclick="display.borrarTodo()" class="col-2">C</button>
+				<button onclick="display.borrar()">&larr;</button>
+				<button class="operator" value="dividir">/</button>
+				<button class="numeros">7</button>
+				<button class="numeros">8</button>
+				<button class="numeros">9</button>
+				<button class="operator" value="mutiplicar">*</button>
+				<button class="numeros">4</button>
+				<button class="numeros">5</button>
+				<button class="numeros">6</button>
+				<button class="operator" value="restar">-</button>
+				<button class="numeros">1</button>
+				<button class="numeros">2</button>
+				<button class="numeros">3</button>
+				<button class="operator" value="sumar">+</button>
+				<button class="numeros">0</button>
+				<button class="numeros">00</button>
+				<button class="numeros">.</button>
+				<button class="operator" value="resultado">=</button>
+			</div>
+		</div>
+	<script src="Calculator.js"></script>
+</body>
+</html>
